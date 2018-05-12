@@ -4,11 +4,13 @@
     <meta charset="utf-8" />
     <title>Plan de Dominación Mundial</title>
     <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel:900" rel="stylesheet">
 </head>
 <body>
     <!--Cabecera-->
     <header class="header">
-        <h1>header</h1>
+        <h1>IES - Profesorado de Inglés</h1>
     </header>
     <!--Botones de Navegación-->
     <nav class="navbar">
@@ -19,7 +21,7 @@
         <a href="#">Cuarto</a>
     </nav>
 
-    <section class="content Inicio">
+    <section class="content inicio">
         <h2 class="title">Título 1</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia modi hic assumenda facere? Incidunt officia autem cumque architecto repellendus dolore consequuntur consectetur, molestiae debitis ducimus! Dolor, eos. Quaerat, iste asperiores!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum sint dolore molestiae ullam doloremque, consequatur odio, aperiam aliquam possimus sequi eius accusantium ab neque enim veritatis ut quis magni praesentium?
@@ -38,47 +40,52 @@
         </ul>
     </section>
 
-    <table class="egt" align="center" border="2">
-        <tr align="center">
-          <th scope="row">Día</th>
-          <th>Lunes</th>
-          <th>Martes</th>
-          <th>Miércoles</th>
-          <th>Jueves</th>
-          <th>Viernes</th>
-        </tr>
-        <tr align="center">
-          <th>18:50</th>
-          <td rowspan="2" style="background: royalblue">Práctica Profesional Docente III</td>
-          <td rowspan="4" style="background: orange">Literatura Inglesa I</td>
-          <td rowspan="2" style="background: olivedrab">Sociología</td>
-          <td rowspan="4" style="background: palegreen">Idioma III</td>
-          <td rowspan="4" style="background: orangered">Fonética III</td>
-        </tr>
-        <tr align="center">
-        <th>19:30</th>
-        </tr>
-        <tr align="center" >
-            <th>20:10</th>
-            <td rowspan="7" style="background: greenyellow">Gramática III</td>
-        </tr>
-        <tr align="center">
-            <th>20:50</th>
-        </tr>
-        <tr align="center"><th>21:00</th>
-        <td rowspan="2" style="background: olivedrab">Sociología</td>
-        <td rowspan="2" style="background: rebeccapurple">Necesidades Educativas Especiales</td>
-        <td rowspan="3" style="background: indianred">Didáctica Especial II</td>
+    <table class="horario">
+        <tr>
+        <thead>
+            <th style="width: 10%">Hora</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </thead>
     </tr>
-    <tr align="center"><th>21:40</th></tr>
-    
-    <tr align="center"><th>22:20</th>
-        <td rowspan="2" style="background: darkslategray">Lingüística</td>
-    </tr>
-        <tr align="center"><th>23:00</th></tr>
-        <tr align="center"><th>23:40</th></tr>
-      </table>
-    
+        <tbody>
+            <tr>
+                <th class="hora">18:50 - 19:30</th>
+                <td rowspan="2" style="background-color: #B8DBFF">Práctica Profesional Docente III</td>
+                <td rowspan="3" style="background-color: rgb(187, 80, 124)">Literatura I</td>
+                <td rowspan="2" style="background-color: #7BA2CB">Sociología</td>
+                <td rowspan="3" style="background-color: #FADF63">Idioma III</td>
+                <td rowspan="3" style="background-color: #FB4D3D">Fonética III</td>
+            </tr>
+            <tr>
+                    <th class="hora">19:30 - 20:10</th>                   
+            </tr>
+            <tr>
+                    <th class="hora">20:10 - 20:50</th>
+                    <td rowspan="4" style="background-color: #86BA90">Gramática III</td>
+                    <td rowspan="2" style="background-color: rgb(73, 86, 226)">Necesidades Educativas Especiales</td>
+            </tr>
+            <tr>
+                    <th class="hora">21:00 - 21:40</th>
+                    <td rowspan="2" style="background-color: #7BA2CB">Sociología</td>
+                    <td rowspan="3" style="background-color: rgb(227, 119, 241)">Didáctica Especial II</td>
+                    <td rowspan="2" style="background-color: #FADF63">Idioma III</td>
+            </tr>
+            <tr>
+                    <th class="hora">21:40 - 22:20</th>
+            </tr>
+            <tr>
+                    <th class="hora">22:25 - 23:05</th>
+                    <td rowspan="2" style="background-color: #DAB894">Lingüística</td>
+            </tr>
+            <tr>
+                    <th class="hora">23:05 - 23:45</th>
+            </tr>
+        </tbody>
+    </table>
 
     <footer style="text-align: center">Si ves esto estás en el fondo</footer>
 </body>

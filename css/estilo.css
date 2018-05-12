@@ -83,6 +83,30 @@ body {
         align-content: center; 
         background: #000000;
     } 
+table { 
+        width: 100%;
+        display: table;
+        text-align: center;
+        vertical-align: middle;
+        table-layout: fixed;
+       
+    }
+    td {text-align: center; vertical-align: middle;}
+    thead {
+        display: table-header-group;
+          border-bottom: 1px solid #474150;
+          text-align: center;
+    }
+    tbody {
+        display: table-row-group;
+        vertical-align: middle;
+        text-align: center;
+    }
+    .hora {
+        
+        width: 10%;
+        background-color: rgb(88, 88, 122);
+    }
     
 
 

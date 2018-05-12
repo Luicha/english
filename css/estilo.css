@@ -12,9 +12,6 @@
     COLORES:
     color1 => #000;
     color1 => #000;
-    color1 => #000;
-    color1 => #000;
-    color1 => #000;
 */
 
 /* 0. reset*/
@@ -64,8 +61,60 @@ table {
 
 /* 1. layout*/
 
-body { text-align: center; }
+body { 
+    text-align: center; 
+    font: 300 20px/1.7 'Montserrat'; 
+} 
+
+    .header 
+    {background: red; 
+        justify-content: center; 
+        text-align: center;
+    }
+    .navbar {
+        display:  flex; 
+        justify-content: center; 
+        align-items: center; 
+        background: #000000;
+    }
+    .content inicio {
+        display: flex; 
+        justify-content: center; 
+        align-content: center; 
+        background: #000000;
+    } 
+    table { 
+        width: 100%;
+        display: table;
+        text-align: center;
+        vertical-align: middle;
+        table-layout: fixed;
+       
+    }
+    td {text-align: center; vertical-align: middle;}
+    thead {
+        display: table-header-group;
+          border-bottom: 1px solid #474150;
+          text-align: center;
+    }
+    tbody {
+        display: table-row-group;
+        vertical-align: middle;
+        text-align: center;
+    }
+    .hora {
+        
+        width: 10%;
+        background-color: rgb(88, 88, 122);
+    }
+
 
 /* 2. item generico*/
+.header {height: 40vh; background: url(../img/london.jpg) no-repeat center top; background-size: cover;}
+.navbar {height: 63px; background: #2c3e50}
+.navbar a {color: #FFF; padding: 0px 20px; text-decoration: none; text-transform: uppercase; font-family: 'Cinzel', serif;}
+.header {color: rgba(0, 0, 0, 0.61); padding: 0 auto; text-transform: uppercase; font-family: 'Cinzel', serif; font-size: 80px;}
+
+
 
 /* 3. parte de web*/

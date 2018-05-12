@@ -1,0 +1,140 @@
+/*
+    Guia de estilo:
+    0. reset
+    1. layout
+    2. item generico
+    3. partes de web
+    4. listas
+    5. formularios
+    6. animaciones
+    -----------------------
+
+    COLORES:
+    color1 => #000;
+    color1 => #000;
+*/
+
+/* 0. reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+/* 1. layout*/
+
+body { 
+    text-align: center; 
+    font: 300 20px/1.7 'Montserrat'; 
+} 
+
+    .header 
+    {
+        display: flex;
+        background: red; 
+        align-items: flex-end;
+        padding-left: 2%;
+    }
+    .navbar {
+        display:  flex; 
+        justify-content: center; 
+        align-items: center; 
+        overflow: hidden;
+        background: #000000;
+    }
+    .content inicio {
+        display: flex; 
+        justify-content: center; 
+        align-content: center; 
+        background: #000000;
+    } 
+    table { 
+        width: 100%;
+        display: table;
+        text-align: center;
+        vertical-align: middle;
+        table-layout: fixed;
+       
+    }
+    td {text-align: center; vertical-align: middle;}
+    thead {
+        display: table-header-group;
+          border-bottom: 1px solid #474150;
+          text-align: center;
+    }
+    tbody {
+        display: table-row-group;
+        vertical-align: middle;
+        text-align: center;
+    }
+    .hora {
+        width: 10%;
+        background-color: rgb(88, 88, 122);
+    }
+
+
+/* 2. item generico*/
+.header {height: 40vh; background: url(../img/london.jpg) no-repeat center bottom;  background-size: cover;}
+
+.header {color: rgba(255, 255, 255, 0.699); padding: 0 auto; text-transform: uppercase; font-family: 'Cinzel', serif; font-size: 6vh;}
+
+.navbar {height: 5vh; background: #D71E3D}
+
+.navbar a {color: #FFF; padding: 0px 20px; text-decoration: none; text-transform: uppercase; font-family: 'Cinzel', serif;}
+
+.navbar a:hover {
+    background-color: rgb(0, 0, 0);
+    color: #D71E3D;}
+
+.materias {
+    display: flex; justify-content: center; align-self: center; vertical-align: middle}
+    
+
+
+
+
+/* 3. parte de web*/

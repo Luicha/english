@@ -59,6 +59,12 @@ table {
 	border-spacing: 0;
 }
 
+
+
+
+
+
+
 /* 1. layout*/
 
 body { 
@@ -67,9 +73,11 @@ body {
 } 
 
     .header 
-    {background: red; 
-        justify-content: center; 
-        text-align: center;
+    {
+        display: flex;
+        background: red; 
+        align-items: flex-end;
+        padding-left: 2%;
     }
     .navbar {
         display:  flex; 
@@ -83,7 +91,7 @@ body {
         align-content: center; 
         background: #000000;
     } 
-table { 
+    table { 
         width: 100%;
         display: table;
         text-align: center;
@@ -107,14 +115,21 @@ table {
         width: 10%;
         background-color: rgb(88, 88, 122);
     }
-    
 
 
 /* 2. item generico*/
-.header {height: 40vh; background: url(../img/london.jpg) no-repeat center top; background-size: cover;}
-.navbar {height: 63px; background: #2c3e50}
+.header {height: 40vh; background: url(../img/london.jpg) no-repeat center bottom;  background-size: cover;}
+
+.header {color: rgba(255, 255, 255, 0.699); padding: 0 auto; text-transform: uppercase; font-family: 'Cinzel', serif; font-size: 6vh;}
+
+.navbar {height: 5vh; background: #D71E3D}
+
 .navbar a {color: #FFF; padding: 0px 20px; text-decoration: none; text-transform: uppercase; font-family: 'Cinzel', serif;}
-.header {color: rgba(0, 0, 0, 0.61); padding: 0 auto; text-transform: uppercase; font-family: 'Cinzel', serif; font-size: 80px;}
+
+.materias {
+    display: flex; justify-content: center; align-self: center; vertical-align: middle}
+    
+
 
 
 

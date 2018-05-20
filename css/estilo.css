@@ -67,22 +67,32 @@ table {
 
 /* 1. layout*/
 
+main {
+    padding: 30px;
+  }
+  
+  main * {
+    box-sizing: border-box;
+  }
+
 body { 
+    
     text-align: center; 
     font: 300 20px/1.7 'Montserrat'; 
 } 
 
-    .header 
+    header 
     {
-        display: flex;
-        background: red; 
-        align-items: flex-end;
+        display: flex; 
+        align-items: center;
+        vertical-align: middle;
         padding-left: 2%;
     }
     .navbar {
         display:  flex; 
         justify-content: center; 
         align-items: center; 
+        overflow: hidden;
         background: #000000;
     }
     .content inicio {
@@ -111,26 +121,38 @@ body {
         text-align: center;
     }
     .hora {
-        
         width: 10%;
         background-color: rgb(88, 88, 122);
     }
 
 
 /* 2. item generico*/
-.header {height: 40vh; background: url(../img/london.jpg) no-repeat center bottom;  background-size: cover;}
 
-.header {color: rgba(255, 255, 255, 0.699); padding: 0 auto; text-transform: uppercase; font-family: 'Cinzel', serif; font-size: 6vh;}
+.module {
+    background: royalblue;
+    background-attachment: cover;
+    width: 100%;
+    height: 10vh;
+    position: relative;
+    overflow: hidden;
+} 
+  
+  .module > header > h1 {
+    margin: 0;
+    color: white;
+    position: relative;
+    z-index: 1;
+  }
 
-.navbar {height: 5vh; background: #D71E3D}
 
-.navbar a {color: #FFF; padding: 0px 20px; text-decoration: none; text-transform: uppercase; font-family: 'Cinzel', serif;}
+.navbar {height: 5vh; background: #E83453}
 
-.materias {
-    display: flex; justify-content: center; align-self: center; vertical-align: middle}
-    
+.navbar a {color: #FFF; padding: 0px 20px; text-decoration: none; text-transform: uppercase; font-family: 'Cinzel', serif;
+    text-shadow: 0 1px 0 black;}
 
 
-
+.bici {
+    margin-top: 50%;
+}
 
 /* 3. parte de web*/

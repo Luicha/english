@@ -92,31 +92,32 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    
 }
-
 .navbar li {
-    float: left;
+    float: left;   
 }
 
 .navbar li a {
+
     display: block;
     color: white;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
-.navbar li a:hover {
-    background-color: #111;
-}
 
-    header 
+    /* Change the link color to #111 (black) on hover */
+    .navbar li a:hover {
+    background-color: #111;
+    }
+
+    .header 
     {
-        display: flex; 
-        align-items: center;
-        vertical-align: middle;
-        padding-left: 2%;
+        text-align: center;
+        display: flex;
+        text-shadow: 1px 1px black;
+       
     }
     .content inicio {
         display: flex; 
@@ -176,5 +177,6 @@ ul {
 .bici {
     margin-top: 50%;
 }
+
 
 /* 3. parte de web*/

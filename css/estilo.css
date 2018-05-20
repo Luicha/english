@@ -81,19 +81,42 @@ body {
     font: 300 20px/1.7 'Montserrat'; 
 } 
 
+h2 {
+    font-size: 4vh;
+    font: bold;
+    padding-bottom: 2%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navbar li a:hover {
+    background-color: #111;
+}
+
     header 
     {
         display: flex; 
         align-items: center;
         vertical-align: middle;
         padding-left: 2%;
-    }
-    .navbar {
-        display:  flex; 
-        justify-content: center; 
-        align-items: center; 
-        overflow: hidden;
-        background: #000000;
     }
     .content inicio {
         display: flex; 
@@ -107,9 +130,11 @@ body {
         text-align: center;
         vertical-align: middle;
         table-layout: fixed;
-       
     }
-    td {text-align: center; vertical-align: middle;}
+    td {
+        text-align: center; 
+        vertical-align: middle;
+    }
     thead {
         display: table-header-group;
           border-bottom: 1px solid #474150;
@@ -128,6 +153,7 @@ body {
 
 /* 2. item generico*/
 
+
 .module {
     background: royalblue;
     background-attachment: cover;
@@ -137,19 +163,15 @@ body {
     overflow: hidden;
 } 
   
-  .module > header > h1 {
+.module > header > h1 {
     margin: 0;
     color: white;
     position: relative;
     z-index: 1;
-  }
-
-
-.navbar {height: 5vh; background: #E83453}
-
-.navbar a {color: #FFF; padding: 0px 20px; text-decoration: none; text-transform: uppercase; font-family: 'Cinzel', serif;
-    text-shadow: 0 1px 0 black;}
-
+    font: 300 5vh/1.7 'Montserrat'; 
+    text-align: center;
+    align-items: center;
+}
 
 .bici {
     margin-top: 50%;

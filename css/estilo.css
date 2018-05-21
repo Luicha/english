@@ -85,6 +85,8 @@ h2 {
     font: bold;
     padding-bottom: 2%;
 }
+
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -147,6 +149,21 @@ ul {
 
 .bici {
     margin-top: 50%;
+}
+
+h3 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-radius: 15px 50px 30px;
+    border-width: 1px;
+    border-color: black;
+    background-color: #333;
+    color: white;
+    width: auto;
+    margin: 2vh;
+    padding: 1vh;
 }
 
 

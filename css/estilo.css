@@ -83,11 +83,15 @@ body {
 h2 {
     font-size: 4vh;
     font: bold;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
 }
 
+a:link {
+    text-decoration: none;
+}
 
 ul {
+    
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -151,20 +155,46 @@ ul {
     margin-top: 50%;
 }
 
+
+.lista li {
+    display: inline;
+    align-items: center;
+   
+}
+
 h3 {
+    display: table-cell;
+    vertical-align: middle;
     text-align: center;
+    text-justify: auto;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2vh;
     border-style: solid;
-    border-radius: 15px 50px 30px;
-    border-width: 1px;
-    border-color: black;
-    background-color: #333;
-    color: white;
-    width: auto;
-    margin: 2vh;
-    padding: 1vh;
+    border-radius: 50px;
+    border-width: 3px;
+    border-color: #333;
+    background-color: white;
+    color: black;
+    width: 500px;
+    height: 60px;
 }
+
+.lista a {
+    
+    color:#34495e;
+    text-decoration:none;
+    line-height:50px;
+    transition:all .5s ease;
+    z-index:2;
+    position:relative;
+  }
+
+  h3:hover{
+    background-color: royalblue;    
+    transition: .7s;
+  }
+    
 
 
 /* 3. parte de web*/
